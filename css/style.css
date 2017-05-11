@@ -67,11 +67,12 @@ h2 {
 	background: #000;
 }
 .intro-paragraph {
-	display: inline-block;
+	display: block;
 	margin: 0 auto;
-	width: 95%;
+	width: 90%;
 	padding-top: 30px;
 	text-align: center;
+	
 }
 
 /* ================================= 
@@ -234,11 +235,12 @@ h2 {
 
 @media (min-width: 768px) {
 	.intro-paragraph {
-		max-width: 40%;
+		max-width: 50%;
 		padding-bottom: 30px;
 		padding-top: 0;
-		margin-left: 10px;
-		padding-right: 10px;
+		margin-left: 90px;
+		padding-right: 1.5%;
+		text-align: left;
 	}
 	#wrapper {
 		max-width: 800px;
@@ -324,6 +326,9 @@ h2 {
 	}
 	.intro-paragraph {
 		padding-right: 10px;
+		padding-left: 0;
+		margin-right: 0;
+		margin-left: 35px;
 	}
 	.main-header {
 		flex-direction: row;
@@ -333,7 +338,7 @@ h2 {
 		display: block;
 		margin-right: auto;
 		margin-top: 0;
-		padding-left: 100px;
+		padding-left: 35px;
 	}
 	.main-nav {
 		margin-top: 20px;

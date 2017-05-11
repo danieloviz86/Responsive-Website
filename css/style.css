@@ -1,113 +1,95 @@
-
 /* ================================= 
   Base Styles
 ==================================== */
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 body {
-	font-family:  'Varela Round', Helvetica, Arial, sans-serif;
+	font-family: 'Varela Round', Helvetica, Arial, sans-serif;
 	line-height: 1.6;
 	background: #000;
 	margin: 0 auto;
 }
-
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; 
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 .container {
 	margin: 0 auto;
 	text-align: center;
 }
-
-
 a {
-  text-decoration: none;
-  color: #fff;
+	text-decoration: none;
+	color: #fff;
 }
-
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
-
 p {
-  color: white;
-  font-size: 1em;
+	color: white;
+	font-size: 1em;
 }
-
 h2 {
 	margin-top: 0;
-  color: #B7FACE;
+	color: #B7FACE;
 }
-
 #contact {
-  color:#fff;
-  font-size: 1.5em;
-  font-weight: 600;
-  display: block;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 600;
+	display: block;
 }
-
-
-
 #wrapper {
-  max-width: 940px;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  background: black;
-  padding-top: 100px;
-  padding-bottom: 80px;
-  font-weight: bold;
-  font-size: 1em;
+	max-width: 940px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	background: black;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	font-weight: bold;
+	font-size: 1em;
 }
-
 .intro {
 	background: #00ace6;
 	padding-top: 25px;
 	padding-bottom: 50px;
 	font-size: 1.2em;
 }
-
-
 .profile-picture {
-  display: block;
-  width:60%;
-  margin: 0 auto; 
-  padding: 10px;
+	display: block;
+	max-width: 200px;
+	margin: 0 auto;
+	padding: 10px;
 	border-radius: 40%;
 	background: #000;
 }
 .intro-paragraph {
-  display: inline-block;
+	display: inline-block;
 	margin: 0 auto;
 	width: 95%;
-  padding-top: 30px;
+	padding-top: 30px;
 	text-align: center;
 }
-
 
 /* ================================= 
   Portfolio Style
 ==================================== */
+
 #gallery {
-  margin: 0;
-  padding-top: 100px;
+	margin: 0;
+	padding-top: 0;
 }
 #gallery li a p {
-  margin: 0;
-  padding: 5%;
+	margin: 0;
+	padding: 0;
 }
-
 #gallery li img {
-	padding-bottom: 2em;
+	padding-bottom: 0;
 	padding-top: 3em;
-} 
+}
 
 /* ================================= 
   Skills Section Style
@@ -117,28 +99,24 @@ h2 {
 	background: #00ace6;
 	margin: 0 auto;
 }
-
 .skills-container p {
 	width: 80%;
 	margin: 0 auto;
 	padding-bottom: 30px;
 }
-	.skills-container h2 {
+.skills-container h2 {
 	color: #fff;
 	padding-top: 30px;
-} 
-
+}
 .logo {
 	border-radius: 40%;
 	padding-bottom: 30px;
 }
-
 .skill-img li {
 	float: right;
 	width: 30%;
 	margin-right: 2.5%;
 }
-
 .skill-img {
 	background: #00ace6;
 	margin: 0 auto;
@@ -149,17 +127,15 @@ h2 {
 ==================================== */
 
 #contact-paragraph {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: 30px;
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 30px;
 }
-
 .contact-items a {
 	text-decoration: underline dotted;
 	text-decoration-color: #B7FACE;
 }
-
 .contact-items {
 	font-size: 1.25em;
 	padding-bottom: 30px;
@@ -169,68 +145,57 @@ h2 {
   Basic Nvigation Style
 ==================================== */
 
-.main-header,
-.main-nav {
+.main-header, .main-nav {
 	display: flex;
 	flex-direction: column;
 }
-
 .main-header {
 	justify-content: space-between;
 	padding-top: 1em;
 	background: #00ace6;
-	
 }
-
 .name {
 	font-family: 'Anton', sans-serif;
 	font-size: 2em;
 	font-weight: 500;
-	padding-top: 0; 
+	padding-top: 0;
 	margin: 0;
 }
-
-
 .main-nav {
 	margin-top: 1.5em;
 	justify-content: space-around;
 }
-
- .main-nav a {
-	display: block;
+.main-nav a {
+	display: inline;
 	color: #fff;
 	font-size: 1.125em;
 	font-weight: 300;
 	margin-top: 1em;
 }
-
 .main-nav li {
-	 background-color: #18222B;
-   margin: 5px 20px;
+	background-color: #18222B;
+	margin: 5px 20px;
+	display: inline;
+	align-items: center;
 }
-
 .main-nav a:hover {
-	color:  #B7FACE;
+	color: #B7FACE;
 }
-
 .footer {
 	padding-top: 30px;
-  background: #00ace6;
-	
+	background: #00ace6;
 }
-
 .footer-nav {
 	padding-top: 2em;
 	border-top: 1px solid #fff;
 	margin-right: 23px;
 	margin-left: 23px;
 	font-size: 1.5em;
-	padding-bottom: 50px;	
+	padding-bottom: 50px;
 }
 .footer-nav a:hover {
 	color: #B7FACE;
 }
-
 .mobile-nav {
 	display: inline-block;
 	float: left;
@@ -241,175 +206,142 @@ h2 {
 	bottom: 50px;
 	right: 3%;
 }
-
-
 .name2 {
 	display: inline-block;
 	float: left;
 	font-size: .75em;
 }
-
 .desktop-nav li {
 	display: none;
 }
 
-
 /* ---- Clearfix ---- */
 
 .clearfix::after {
-  content:"";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /* ================================= 
   Responsive Layout
 ==================================== */
 
+
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media (min-width: 768px){
-
-
-.intro-paragraph {
-	width: 40%;
-	padding-bottom: 30px;
-  padding-top: 0;
-	margin-left: 10px;
-  padding-right: 10px;
-}
-
-#wrapper {
-  max-width: 800px;
-  width: 95%;
-}
-
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-}
-
-
-.intro {
-	padding-top: 50px;
-}
-
-.profile-picture {
-  float: right;
-  margin-right: 60px;
-  padding: 10px;
-  width: 40%;
-	background: white;
-}
-
-
-.skill-img li {
-	width: 14.25%;
-	margin-right: 2%;
-}
-
-#contact-paragraph {
-	width: 60%;
-}
-
-.main-header {
-		height: 100px;
-		justify-content: flex-end;	
+@media (min-width: 768px) {
+	.intro-paragraph {
+		max-width: 40%;
+		padding-bottom: 30px;
+		padding-top: 0;
+		margin-left: 10px;
+		padding-right: 10px;
 	}
-	
-
-
-.name {
+	#wrapper {
+		max-width: 800px;
+		width: 95%;
+	}
+	#gallery li {
+		float: left;
+		width: 45%;
+		margin: 2.5%;
+	}
+	.intro {
+		padding-top: 50px;
+	}
+	.profile-picture {
+		float: right;
+		margin-right: 60px;
+		padding: 10px;
+		max-width: 200px;
+		background: white;
+	}
+	.skill-img li {
+		width: 14.25%;
+		margin-right: 2%;
+	}
+	#contact-paragraph {
+		width: 60%;
+	}
+	.main-header {
+		height: 150px;
+		justify-content: flex-end;
+	}
+	.name {
 		height: 100px;
 		padding-top: 200px;
 		justify-content: flex-end;
 		flex-direction: row;
+		padding-bottom: 50px;
 	}
-
-	
-.main-nav {
+	.main-nav {
 		flex-direction: row;
 		justify-content: space-around;
 		margin-top: 50px;
 	}
-	
-
-.main-nav li {
-	margin: 0;
-	background: transparent;
+	.main-nav li {
+		margin: 0;
+		background: transparent;
+	}
+	.desktop-nav li {
+		display: inline-block;
+		float: right;
+		font-size: .75em;
+		margin-right: 23px;
+		margin-bottom: 70px;
+	}
+	.mobile-nav {
+		display: none;
+	}
 }
-	
-.desktop-nav li {
-	display: inline-block;
-	float: right;
-	font-size: .75em;
-	margin-right: 23px;
-	margin-bottom: 70px;
-}
-
-.mobile-nav {
-	display: none;
-}
-
-}
-
-@media (min-width: 1024px){
-
-.container {
+@media (min-width: 1024px) {
+	.container {
 		width: 100%;
 	}
-.intro {
-	padding-top: 50px; 
+	.intro {
+		padding-top: 50px;
+	}
+	#wrapper {
+		width: 98%;
+		max-width: 2000px;
+	}
+	#gallery li {
+		width: 28.3333%;
+		margin: 2.5%;
+	}
+	.main-header {
+		height: 100px;
+	}
+	.intro {
+		padding-top: 1px;
+	}
+	.profile-picture {
+		margin-right: 40px;
+		max-width: 300px;
+	}
+	.intro-paragraph {
+		padding-right: 10px;
+	}
+	.main-header {
+		flex-direction: row;
+	}
+	.name {
+		padding-top: 15px;
+		display: block;
+		margin-right: auto;
+		margin-top: 0;
+		padding-left: 100px;
+	}
+	.main-nav {
+		margin-top: 20px;
+		align-self: center;
+		padding-right: 35px;
+	}
+	.main-nav li {
+		margin-left: .65em;
+		margin-right: .65em;
+	}
 }
-#wrapper {
-  width: 98%;
-  max-width: 2000px;
-}
-
-
-#gallery li {
-  width: 28.3333%;
-  margin: 2.5%;
-}
-
-
-.profile-picture {
-  margin-right: 40px;
-}
-
-.intro-paragraph {
-  padding-right: 10px;
-}
-
-.main-header {
-	flex-direction: row;
-}
-
-
-.name {
-	padding-top: 15px;
-	display: block;
-	margin-right: auto;
-	margin-top: 0;
-	padding-left: 100px;
-}
-
-.main-nav {
-	margin-top: 20px;
-	align-self: center;
-	padding-right: 35px;
-}
-
-.main-nav li {
-	margin-left: .65em;
-	margin-right: .65em;
-}
-
-
-
-}
-
-  
